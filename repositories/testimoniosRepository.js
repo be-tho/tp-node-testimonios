@@ -29,5 +29,5 @@ export async function create(entity){
 }
 export default {
     getAll,
-    create
+    create,
 }

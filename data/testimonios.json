@@ -1,1 +1,1 @@
-[{"id":1,"nombre":"guitarra","deleted":true},{"name":"Pedal Guitarra","id":2},{"name":"teclado","id":3},{"name":"bateria","id":4},{"name":"violin","id":5},{"name":"debo","id":6},{"name":"debo","id":7}]
+[{"deleted":false,"id":1,"name":"guitarra"},{"name":"Pedal Guitarra","id":2},{"name":"teclado","id":3},{"name":"bateria","id":4,"deleted":true},{"name":"violin","id":5},{"name":"debo","id":6},{"name":"trombon","id":7}]
