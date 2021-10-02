@@ -8,11 +8,6 @@ const router = express.Router()
 
 
 router.route('/')
-    .get(function (req, res){
-    res.send("hola mundo")
-})
-
-router.route('/listar')
     .get(controller.listar)
 
 
