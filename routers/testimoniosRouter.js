@@ -63,7 +63,7 @@ router.route('/testimonios/:id')
                 const testimonio = testimonios.find(e => e.id == id)
                 if (testimonio != undefined && testimonio.deleted != true ) {
                     let index = testimonios.indexOf(testimonio)
-                    testimonios[index] = {...req.body, id:id}
+                    testimonios[index] = {...req.body, id:id, }
 
                     fs.promises.writeFile ('./data/testimonios.json', JSON.stringify (testimonios))
                         .then (function () {
@@ -153,6 +153,5 @@ router.route('/deleted/:id')
                 res.status(500).json({err: 500, msg: "Error al leer los datos"})
             })
     })
-    .post
 
 export default router

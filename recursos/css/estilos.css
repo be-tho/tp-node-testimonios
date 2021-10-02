@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background: -webkit-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+    background: -o-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+    background: -ms-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+}
+header{
+    position: relative;
+}
+ul{
+    margin: 0;
+}
+.logo{
+    position: absolute;
+    z-index: 10;
+    top: 8px;
+    left: 18px;
+    color: white;
+}
+.d-alum{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Stilos cursos*/
+.videos__cursos-a{
+    text-decoration: none;
+
+}
+.videos__cursos-a:hover{
+    text-decoration: none;
+
+}
+.videos__cursos-h3{
+    color: #4e4e4e;
+    font-size: 1.5em;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+
+}
+.videos__cursos-p{
+    color: #878787;
+    margin-bottom: 0.5rem;
+}
+.videos__cursos-article{
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.8s;
+}
+.videos__cursos-article:hover{
+    background: #b9e3db;
+    color: white;
+}
+.videos__cursos-img{
+    width: 100%;
+}
+
+.videos__section{
+    padding: 0.8em 0 1.5em 0;
+}
+.videos__cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Estilos del Home*/
+/*Banner*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2em 0;
+}
+.banner_cont1-h1{
+    text-transform: uppercase;
+    line-height: 88px;
+    font-size: 4.2rem;
+    font-weight: 600;
+}
+.banner_cont1-p{
+    font-size: 20px;
+    letter-spacing:0.4px;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+.banner_cont2-img{
+    width: 100%;
+}
+.banner__button{
+    font-size: 1.5em;
+    text-decoration: none;
+    background: #78aa1e;
+    border-color: #5a7f16;
+    max-width: 300px;
+}
+.banner__button:hover{
+    background: #5a7f16;
+    border-color: #78aa1e;
+}
+/* Estilos colaboradores*/
+.colaboramos{
+    padding: 3em 0 1.5em 0;
+    background: #F5F5F5;
+}
+.colaboramos__h2{
+    padding-bottom: 1.2em;
+    margin-bottom: 0;
+}
+.colaboramos__em{
+    color:#4e86a2;
+}
+.colaboramos__items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1em;
+}
+.colaboramos__items a{
+    margin-bottom: 1.5em;
+
+}
+
+/*Estilos aprendisaje*/
+.aprendisaje{
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNDAiIGhlaWdodD0iMjQwIiBzdHlsZT0ib3ZlcmZsb3c6dmlzaWJsZTtlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI0MCAyNDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Im0yMjguNzQgMTQ3LjE4LTgxLjU1IDgxLjU2Yy0xNS4wMSAxNS4wMi0zOS4zNiAxNS4wMi01NC4zNyAwbC04MS41NS04MS41NmMtMTUuMDEtMTUuMDItMTUuMDEtMzkuMzYgMC01NC4zN2w4MS41NS04MS41NWMxNS4wMS0xNS4wMSAzOS4zNi0xNS4wMSA1NC4zNyAwbDgxLjU1IDgxLjU1YzE1LjAxIDE1LjAyIDE1LjAxIDM5LjM2IDAgNTQuMzciIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiM5OGNhM2Y7Ii8+PC9zdmc+) #2a4857;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: -165%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 130%;
+    -moz-background-size: 130%;
+    background-size: 130%;
+
+}
+.aprendisaje__cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3em 0;
+}
+.aprendisaje__text{
+    color: #fff;
+}
+.aprendisaje___img img{
+    width: 100%;
+}
+.aprendisaje__ul{
+    column-count: 2;
+}
+.aprendisaje__ul-li{
+    position: relative;
+    list-style: none;
+    line-height: 1.56;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+.aprendisaje__ul-li::before{
+    color: #98ca3f;
+    content: "\2022";
+    font-size: 3rem;
+    font-weight: 600;
+    left: 0;
+    position: absolute;
+    top: -1.7rem;
+}
+
+/*Fin estilos Home*/
+
+
+/* Estilos Formulario*/
+.nuevoFormulario{
+    background: #f4f4f4;
+}
+/* Estilos Enviado Form*/
+.Enviado{
+    background: #98ca3f;
+    padding: 0.5rem 0;
+}
+.Enviado__cont{
+    text-align: center;
+    color: white;
+}
+.Enviado__cont h4{
+    margin: 0;
+}
+
+/*Estilos de contacto*/
+.form label{
+    margin-bottom: 0.2em !important;
+}
+.contacto{
+    background: #f7f7f7;
+    padding: 2em 0;
+}
+.contacto__h1{
+    font-weight: 800;
+    font-style: italic;
+    color:#98ca3f;
+}
+.contacto__form, .contacto__h1{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estilos de curso individual*/
+.curso{
+    padding: 2em 0;
+}
+.curso__article{
+    justify-content: space-around;
+}
+
+/* FOOTER ESTILOS*/
+
+.footer{
+    overflow: hidden;
+    width: 100%;
+    background: #333333;
+}
+.footer__cont{
+    margin: 0 auto;
+    text-align: center;
+    color: #e5e5e5;
+}
+.footer__cont-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+
+
+/*Media Query*/
+@media screen and (max-width: 965px){
+    .aprendisaje__ul{
+        column-count: inherit;
+    }
+    .banner_cont1-h1{
+        font-size: 3.8em;
+        line-height: 80px;
+    }
+    .colaboramos__h2{
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 767px){
+    .banner_cont2-img{
+        display: none;
+    }
+    .banner__button{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 470px){
+    .banner_cont1-h1{
+        font-size: 3em;
+        line-height: 65px;
+        font-weight: 800;
+        color: #1c3643;
+    }
+    .colaboramos__h2{
+        font-size: 20px;
+        line-height: 38px;
+        padding-bottom: 0.8em;
+        margin-bottom: 0;
+    }
+    .banner_cont1-p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+   .segmento-dos{
+       margin-bottom: 1.6em;
+   }
+   .aprendisaje__cont > h2{
+       margin-right: 0 !important;
+       font-size: 30px;
+       text-align: center;
+   }
+   .aprendisaje__cont{
+       padding: 2em 0;
+   }
+}

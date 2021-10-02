@@ -1,12 +1,15 @@
 import repository from "../repositories/testimoniosRepository.js"
 
+
+
+
 //listar
 function listar(req, res){
     repository.getAll()
         .then(function (testimonios){
             res.render(
                 "listarTestimonios", //vista
-                {list : testimonios} //modelo
+                {list : testimonios}, //modelo
             )
         })
         .catch(function (err){

@@ -15,6 +15,8 @@ export async function create(entity){
         .then (function (data) {
             const testimonios = JSON.parse (data)
             entity.id = testimonios.length + 1
+            entity.img = "img/testimonios/" + entity.id + ".jpg"
+            entity.deleted = true
 
             testimonios.push (entity)
 

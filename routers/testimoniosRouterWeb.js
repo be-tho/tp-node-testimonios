@@ -2,7 +2,10 @@ import express from "express";
 import controller, {nuevoForm} from "../controllers/testimoniosController.js"
 
 
+
 const router = express.Router()
+
+
 
 router.route('/')
     .get(function (req, res){
@@ -11,6 +14,7 @@ router.route('/')
 
 router.route('/listar')
     .get(controller.listar)
+
 
 router.route('/nuevoTestimonio')
     .get(controller.nuevoForm)

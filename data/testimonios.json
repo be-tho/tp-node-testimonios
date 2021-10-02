@@ -1,1 +1,46 @@
-[{"deleted":false,"id":1,"name":"guitarra"},{"name":"Pedal Guitarra","id":2},{"name":"teclado","id":3},{"name":"bateria","id":4,"deleted":true},{"name":"violin","id":5},{"name":"debo","id":6},{"name":"trombon","id":7}]
+[
+  {
+    "name": "Shirly Pacheco",
+    "id": 1
+  },
+  {
+    "id": 2,
+    "name": "Julio R.",
+    "linkedin": "www.linkedin.com/JulioRomero",
+    "testimonio": "'Comencé en la etapa cero. Con Coursera pude comenzar a aprender en línea y, finalmente, acumular suficientes conocimientos y habilidades para lograr la transición a una carrera bien remunerada'.",
+    "img": "img/testimonios/3.jpg",
+    "deleted": false
+  },
+  {
+    "id": 3,
+    "name": "Sabrina M.",
+    "linkedin": "www.linkedin.com/SabrinaMitch",
+    "testimonio": "'Buscábamos escalabilidad, credibilidad y algo que no teníamos para desarrollarnos de forma interna. CursArg no solo ofrece capacitación de instituciones muy prestigiosas, sino también una plataforma que te permite realizar el seguimiento que desees'.",
+    "img": "img/testimonios/2.jpg",
+    "deleted": true
+  },
+  {
+    "name": "Albert Villarroel",
+    "linkedin": "www.linkedin.com.ar/albertVillarroel",
+    "testimonio": "En CursArg aprendi muchisimos conocimientos básicos que me ayudar a afianzar más mis conocimientos sobre la programación.",
+    "id": 4,
+    "img": "img/testimonios/4.jpg",
+    "deleted": false
+  },
+  {
+    "name": "Deborah Orellana",
+    "linkedin": "www.linkedin.com.ar/deborahOrellana",
+    "testimonio": "Hola test de comentario",
+    "id": 5,
+    "img": "img/testimonios/5.jpg",
+    "deleted": true
+  },
+  {
+    "name": "Thiago Soliz",
+    "linkedin": "www.linkedin.com.ar/thiagoSoliz",
+    "testimonio": "Hola soy Thiago tengo 12 años y gracias a CursArg estoy aprendiendo fundamentos de la programación.",
+    "id": 6,
+    "img": "img/testimonios/6.jpg",
+    "deleted": true
+  }
+]
